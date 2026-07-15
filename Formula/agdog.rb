@@ -1,24 +1,24 @@
 class Agdog < Formula
   desc "Agent-aware terminal resource monitor: htop and nvitop fused"
   homepage "https://github.com/dynaum/agdog"
-  version "0.1.5"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/dynaum/agdog/releases/download/v0.1.5/agdog-v0.1.5-aarch64-apple-darwin.tar.gz"
-      sha256 "e7cbbd6ee38f703e5f40a833366a22d1235c8bc1e64c8c103cf5e4b8569b2817"
+      url "https://github.com/dynaum/agdog/releases/download/v0.2.0/agdog-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "df06338eb989ba8fb3e6c669bbb89dac437b654ec9f034eafa48daf7977ea940"
     end
     on_intel do
-      url "https://github.com/dynaum/agdog/releases/download/v0.1.5/agdog-v0.1.5-x86_64-apple-darwin.tar.gz"
-      sha256 "5aa1642471a1c1aedf58a6985d4e2af4df9ae9e854fb5bf9e293d1cfdffc4a4e"
+      url "https://github.com/dynaum/agdog/releases/download/v0.2.0/agdog-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "60ce5ed617c17c79ae93277d64be8979930c6837f41ac75fd7cefef5c7708a53"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dynaum/agdog/releases/download/v0.1.5/agdog-v0.1.5-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4305998d75db7a289075ce059501e930cbee547465bb83f058c6848d4d4c037c"
+      url "https://github.com/dynaum/agdog/releases/download/v0.2.0/agdog-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e8d1a3667017099be6e9c6206f4cbefc66d30959553fe79ff8f5c74aa8103c81"
     end
   end
 
